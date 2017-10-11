@@ -1,0 +1,16 @@
+/*
+Theme Name: Rude Framework
+Theme URI: http://ruudmedia.com/
+Author: Ruud Media
+Author URI: http://ruudmedia.com/
+Description: Base theme for Ruud Media Wordpress projects.
+Version: 1.0
+*/
+
+/* Scss Document */
+
+@import "bootstrap/scss/functions";
+@import "rudeframework_variables";
+@import "bootstrap_variables";
+@import "bootstrap/scss/bootstrap";
+@import "rudeframework_styles";
