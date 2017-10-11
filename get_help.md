@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: help
 title: Get Help
 permalink: /get_help/
 ---
