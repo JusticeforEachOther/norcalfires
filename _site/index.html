@@ -2,6 +2,17 @@
 <html>
 
 <head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107921452-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-107921452-1');
+	</script>
+
 	<meta charset="UTF-8">
 
 	<link rel="alternate" href="http://localhost:4000/" hreflang="en-us" />
@@ -55,11 +66,11 @@
 			<p class="text-center text-info mb-0">Get the latest updates.</p>
 		</div>
 		<div class="col-12 col-md-4 mb-4">
-			<a href="/gethelp" class="text-white h2 btn-block btn-warning text-center text-white h1 py-4"><span><i class="fa fa-plus-circle mb-md-2"></i><br class="d-none d-md-block"> Get Help</span></a>
+			<a href="/get_help" class="text-white h2 btn-block btn-warning text-center text-white h1 py-4"><span><i class="fa fa-plus-circle mb-md-2"></i><br class="d-none d-md-block"> Get Help</span></a>
 			<p class="text-center text-warning mb-0">Get food, shelter, and other help.</p>
 		</div>
 		<div class="col-12 col-md-4 mb-4">
-			<a href="/Volunteer" class="text-white h2 btn-block btn-success text-center h1 py-4"><span><i class="fa fa-hand-paper-o mb-md-2"></i><br class="d-none d-md-block"> Give Help</span></a>
+			<a href="/give_help" class="text-white h2 btn-block btn-success text-center h1 py-4"><span><i class="fa fa-hand-paper-o mb-md-2"></i><br class="d-none d-md-block"> Give Help</span></a>
 			<p class="text-center text-success mb-0">Donate, volunteer, and do what you can.</p>
 		</div>
 	</nav>
@@ -67,7 +78,7 @@
 </div>
 
 <hr />
-<footer>
+<footer class="py-4">
 
 	<div class="container text-center">
 
@@ -77,6 +88,8 @@
 	</div>
 
 </footer>
+
+
 
 <link rel="stylesheet" href="/css/main.css" />
 <script src="/js/jquery-3.2.1.min.js"></script>
