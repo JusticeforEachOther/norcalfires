@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Due to limited cell connectivity and a rapidly evolving situation, there is a need for an easily updated, collectively maintained, lightweight source of information.
+Due to limited cell connectivity and a rapidly evolving situation, there is a need for an easily updated, collectively maintained, lightweight source of information for people who need help, want to provide it, or simply want more information
 
 ## How to Help
 
