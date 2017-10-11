@@ -2,26 +2,40 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
+
+	<link rel="alternate" href="http://localhost:4000/about/" hreflang="en-us" />
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<title>About</title>
+
+	<link rel="icon" type="image/png" href="/img/favicon.png">
+
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	
 </head>
 
-<header class="py-4 text-left">
+<header class="text-left">
 	<div class="container">
 		<nav class="navbar navbar-expand-md">
 			<a class="navbar-brand text-primary lh-115" href="#"><span class="lead">norcalfires.fyi</span><br><small class='text-muted'>info on norcal firestorms</small></a>
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
-			    <span><i class="fa fa-hamburger"></i> Menu</span>
+			    <span><i class="fa fa-bars"></i> Menu</span>
 			  </button>
-			<ul class="navbar-nav ml-auto collapse navbar-collapse justify-content-end" id="topNav">
-				<li class="nav-item">
-					<a href="#" class="nav-link text-info">Get Informed</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link text-success">Give Help</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link text-danger">Get Help</a>
-				</li>
-			</ul>
+			<div id="topNav" class="collapse navbar-collapse">
+				<ul class="ml-auto navbar-nav justify-content-md-end">
+					<li class="nav-item">
+						<a href="#" class="nav-link text-info">Get Informed</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link text-success">Give Help</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link text-danger">Get Help</a>
+					</li>
+				</ul>
+			</div>
 		</nav>
 	</div>
 </header>
@@ -40,13 +54,21 @@
 
 <hr />
 <footer>
+
+	<div class="container text-center">
+
+		<p class="small text-muted">Want to help with the site?</p>
+		<p class="small text-muted"><a target="_blank" class="text-info" href="https://join.slack.com/t/norcalfiresfyi/shared_invite/enQtMjU0MzMxMjgwNDgzLTlmZDA0MTczMTAzOWViZTIxMGI1OGVlMjg3MWE0ZWY1OWQzZjIxNDRlZGU2OTlhOThiMWUyNDBmZWNlZWQ5MjU">Join the slack channel</a> or <a class="text-info" href="https://github.com/JusticeforEachOther/norcalfires/">contribute to the github.</a></p>
+
+	</div>
+
 </footer>
 
 <link rel="stylesheet" href="/css/main.css" />
-<link rel="stylesheet" href="/css/font-awesome.min.css" />
 <script src="/js/jquery-3.2.1.min.js"></script>
 <script src="/js/popper.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="/css/font-awesome.min.css" />
 
 </body>
 </html>
