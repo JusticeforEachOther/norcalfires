@@ -4,8 +4,12 @@ title: Give Help
 permalink: /give_help/
 ---
 
-I Have Time to Give
+# Give Help
 
-I Have Money to Give
+## Donate Time
 
-I Have Shelter to Give
+## Donate Money
+
+## Provide Shelter
+
+## Donate Supplies
