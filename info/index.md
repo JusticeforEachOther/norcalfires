@@ -1,10 +1,8 @@
 ---
 layout: info
-title: Information on NorCal Firestorms
+title: Get Informed
 permalink: /info/
 ---
-
-# Get Information
 
 ## Current Evacuation Zones
 

@@ -10,6 +10,8 @@ permalink: /give_help/
 
 ## Donate Money
 
+[Donate to the Redwood Credit Union North Bay Fire Relief Fund](https://rcu-community-fund.squarespace.com/donate/)
+
 ## Provide Shelter
 
 ## Donate Supplies

@@ -1,9 +1,21 @@
-<hr />
-<footer class="py-4">
 
-	<div class="text-center mb-4">
-		<a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank"><i class="fa fa-facebook-square"></i> Share This Page</a>
-	</div>
+
+<div class="container"><hr class="my-4">
+
+<div class="text-center mb-4">
+	<a class="btn btn-primary" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank"><i class="fa fa-facebook-square"></i> Share This Page</a>
+	<button class="btn btn-success copyLink" data-toggle="popover" data-content="copied to clipboard" data-clipboard-text="{{site.url}}{{page.url}}"><i class="fa fa-link"></i> Copy Page URL</button>
+</div> <hr class="my-4" /></div>
+<footer class="container pb-4">
+
+	<p class="text-center">Something missing?</p>
+	<p class="text-center"><a href="#" class="btn btn-danger"><i class="fa fa-plus-circle"></i> Submit a Resource or Request</a></p>
+	<p class="text-muted small mb-4 text-center">We will verify and post as quickly as possible</p>
+
+	<hr class="my-4">
+
+	<p class="mb-4 text-muted text-center">This website was designed with speed and bandwidth conservation in mind to increase usabilty on mobile devices with poor connectivity.</p>
+
 
 	<div class="container text-center">
 
@@ -21,7 +33,15 @@ This site is designed with speed and bandwidth conservation in mind, unstyled co
 {% endcomment %}
 
 <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}" />
+<script src="{{ '/js/clipboard.min.js' | relative_url }}"></script>
 <script src="{{ '/js/jquery-3.2.1.min.js' | relative_url }}"></script>
 <script src="{{ '/js/popper.min.js' | relative_url }}"></script>
 <script src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
 <link rel="stylesheet" href="{{ '/css/font-awesome.min.css' | relative_url }}" />
+
+<script>
+	jQuery(document).ready( function() {
+		jQuery("[data-toggle=popover]").popover();
+		new Clipboard('.copyLink');
+	});
+</script>
