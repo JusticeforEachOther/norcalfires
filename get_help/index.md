@@ -5,9 +5,7 @@ permalink: /get_help/
 image: /img/ogimage.jpg
 ---
 
-# Get Help
-
-<p class="leader text-danger">If you are in imminent danger, call <a class="text-danger font-weight-bold" href="tel:911">911</a>. </p>
+<a href="tel:911" class="d-block text-center alert alert-danger"><i class="fa fa-exclamation-triangle"></i> If you or someone else is in imminent danger, call 911.</a>
 
 ## Current Evacuations
 
@@ -28,5 +26,3 @@ image: /img/ogimage.jpg
 ## Find a Missing Person
 
 ## Find a Missing Pet
-
-</div>
