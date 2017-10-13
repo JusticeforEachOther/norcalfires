@@ -1,0 +1,63 @@
+---
+layout: info
+title: Nixle Updates
+permalink: /info/nixle
+description: 
+image: /img/ogimage.jpg
+---
+
+<div class="row">
+
+    <div class="col-12 col-md-6">
+
+        <h2>Sonoma Sheriff's Office</h2>
+
+        {% for update in site.data.sonomasheriffnixle.items %}
+
+            <div class="card mb-4">
+                
+                <div class="card-header small text-uppercase">
+                    Sonoma
+                </div>
+
+                <div class="card-body small">
+
+                    <h4 class="card-title">{{ update.title }}</h4>
+
+                    <p>{{ update.description }}</p>
+
+                    <p><a href="{{ update.link }}">More Information <i class="fa fa-angle-double-right"></i></a></p>
+                </div>
+
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+    <div class="col-12 col-md-6">
+
+        <h2>Napa Sheriff's Office</h2>
+
+        {% for update in site.data.napasheriffnixle.items %}
+
+            <div class="card mb-4">
+                
+                <div class="card-header small text-uppercase">
+                    Napa
+                </div>
+
+                <div class="card-body small">
+
+                    <h4 class="card-title">{{ update.title }}</h4>
+
+                    <p>{{ update.description }}</p>
+
+                    <p><a href="{{ update.link }}">More Information <i class="fa fa-angle-double-right"></i></a></p>
+                </div>
+
+            </div>
+
+        {% endfor %}
+    </div>
+</div>

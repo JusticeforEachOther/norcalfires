@@ -1,0 +1,23 @@
+---
+layout: info
+title: Current Fires
+permalink: /info/current_fires
+---
+{% for fire in site.data.currentfires.items %}
+
+    <div class="card mb-4">
+        
+        <div class="card-header">
+            <strong>{{ fire.title }}</strong>
+        </div>
+
+        <div class="card-body small">
+
+            <p>{{ fire.description }}</p>
+
+            <p><a href="{{ fire.link }}">More Information <i class="fa fa-angle-double-right"></i></a></p>
+        </div>
+
+    </div>
+
+{% endfor %}

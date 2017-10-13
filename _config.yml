@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Find Help. Give Help. Get Updated. | Nor Cal Firestorms 
+title: Get Help. Give Help. Get Informed. | norcalfires.fyi 
 email: neil@ruudmedia.com
 description: >- # this means to ignore newlines until "baseurl:"
   A central resource for help, volunteering, donating, news, and other information pertaining to the norcal firestorms that have devastated the region.
@@ -24,6 +24,7 @@ url: "https://norcalfires.fyi" # the base hostname & protocol for your site, e.g
 
 # Build settings
 markdown: kramdown
+logo: 
 sass:
     style: compressed
     sass_dir: _scss
@@ -32,6 +33,14 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+jekyll_get:
+  - data: napasheriffnixle
+    json: 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fagency.nixle.com%2Fpubs%2Ffeeds%2Flatest%2F1085'
+  - data: sonomasheriffnixle
+    json: 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fagency.nixle.com%2Fpubs%2Ffeeds%2Flatest%2F235'
+  - data: currentfires
+    json: 'https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fwww.fire.ca.gov%2Frss%2Frss.xml'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

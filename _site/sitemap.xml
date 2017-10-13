@@ -4,10 +4,10 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/info/evacuations</loc>
+<loc>http://localhost:4000/info/current_fires</loc>
 </url>
 <url>
-<loc>http://localhost:4000/info/</loc>
+<loc>http://localhost:4000/info/evacuations</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -17,5 +17,11 @@
 </url>
 <url>
 <loc>http://localhost:4000/give_help/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/info/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/info/nixle</loc>
 </url>
 </urlset>

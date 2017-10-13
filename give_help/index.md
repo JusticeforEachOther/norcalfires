@@ -2,11 +2,14 @@
 layout: volunteer
 title: Give Help
 permalink: /give_help/
+image: /img/ogimage.jpg
 ---
 
 # Give Help
 
 ## Donate Time
+
+[Sign up to volunteer with the Red Cross]()
 
 ## Donate Money
 
