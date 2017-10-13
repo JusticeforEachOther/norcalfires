@@ -7,9 +7,7 @@ image: /img/ogimage.jpg
 
 ## [Current Fires <i class="fa fa-angle-double-right"></i>](current_fires)
 
-## Most Recent Nixle Updates
-
-### Sonoma Sheriff Department
+## [Most Recent Nixle Updates <i class="fa fa-angle-double-right"></i>](nixle)
 
 <p class="small text-muted">Source:...</p>
 
