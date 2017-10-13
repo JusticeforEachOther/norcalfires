@@ -9,23 +9,21 @@ image: /img/ogimage.jpg
 
 ## [Most Recent Nixle Updates <i class="fa fa-angle-double-right"></i>](nixle)
 
-<p class="small text-muted">Source:...</p>
-
-### Napa Sheriff Department
-
-<p class="small text-muted">Source:...</p>
-
-## Current Evacuation Zones
+<!-- ## Current Evacuation Zones -->
 
 ## Various Maps
 
-Cal Fire Map
+[Cal Fire Map](https://www.google.com/maps/d/u/0/viewer?mid=1TOEFA857tOVxtewW1DH6neG1Sm0&hl=en)
 
-Active Evacuation Zones
+<!-- Active Evacuation Zones  -->
 
 <!-- ## Latest News -->
 
 <!-- ## Facebook Groups
-<span class="text-muted">Please note: Facebook groups often contain unverified  -->information and rumors.</span>
+<span class="text-muted">Please note: Facebook groups often contain unverified information and rumors.</span>-->
 
 <!-- ## Shelters -->
+
+<!-- ## School Closures -->
+
+<p class="lead"><em>More Information coming soon...</em></p>

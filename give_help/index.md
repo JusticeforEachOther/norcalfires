@@ -5,16 +5,18 @@ permalink: /give_help/
 image: /img/ogimage.jpg
 ---
 
-# Give Help
+<!-- ## Donate Time
 
-## Donate Time
-
-[Sign up to volunteer with the Red Cross]()
+[Sign up to volunteer with the Red Cross]() -->
 
 ## Donate Money
 
-[Donate to the Redwood Credit Union North Bay Fire Relief Fund](https://rcu-community-fund.squarespace.com/donate/)
+Many community's immediate needs are met, before sending supplies, please consider a monetary contribution.
 
-## Provide Shelter
+<a class="btn btn-success" href="https://rcu-community-fund.squarespace.com/donate/">Donate to the Redwood Credit Union North Bay Fire Relief Fund</a>
 
-## Donate Supplies
+<!-- ## Provide Shelter
+
+## Donate Supplies -->
+
+<p class="lead"><em>More Information coming soon...</em></p>
