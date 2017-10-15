@@ -15,6 +15,8 @@ Information presented here is for convenience only – subcribe to updates from
 
 ## All Counties
 <p>As of 10/14/2017 9:05pm</p>
-[Sonoma County Fires - CalFire Incident Report](http://cdfdata.fire.ca.gov/admin8327985/cdf/images/incidentfile1867_2840.pdf)
+[Sonoma County Fires - CalFire Incident Report](http://cdfdata.fire.ca.gov/pub/cdf/images/incidentfile1867_2853.pdf)
+
 [Atlas Fire - CalFire Incident Report](http://cdfdata.fire.ca.gov/admin8327985/cdf/images/incidentfile1866_2838.pdf)
+
 [Redwood Valley - CalFire Incident Report](http://cdfdata.fire.ca.gov/admin8327985/cdf/images/incidentfile1867_2840.pdf)
