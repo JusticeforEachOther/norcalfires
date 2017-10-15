@@ -9,14 +9,14 @@ image: /img/ogimage.jpg
 
 [Sign up to volunteer with the Red Cross]() -->
 
-## Donate Money
+<h2 class="mb-1">Donate Money</h2>
 
-Many community's immediate needs are met, before sending supplies, please consider a monetary contribution.
+<small>Much of the community's immediate needs are met. Before sending supplies, please consider a monetary contribution.</small>
 
-<a class="btn btn-success" href="https://rcu-community-fund.squarespace.com/donate/">Donate to the Redwood Credit Union North Bay Fire Relief Fund</a>
+<a href="https://rcu-community-fund.squarespace.com/donate/"><button class="btn btn-success btn-sm">Donate</button> to the Redwood Credit Union North Bay Fire Relief Fund</a>
 
 <!-- ## Provide Shelter
 
 ## Donate Supplies -->
 
-<p class="lead"><em>More Information coming soon...</em></p>
+<p class="lead text-muted"><em>More Information coming soon...</em></p>

@@ -9,11 +9,9 @@ image: /img/ogimage.jpg
 
 ## [Most Recent Nixle Updates <i class="fa fa-angle-double-right"></i>](nixle)
 
-<!-- ## Current Evacuation Zones -->
+## [Current Evacuations](evacuations)
 
-## Various Maps
-
-[Cal Fire Map](https://www.google.com/maps/d/u/0/viewer?mid=1TOEFA857tOVxtewW1DH6neG1Sm0&hl=en)
+<!-- ## Various Maps -->
 
 <!-- Active Evacuation Zones  -->
 
