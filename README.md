@@ -1,3 +1,7 @@
+# This repo is no longer being maintained.
+
+-------
+
 # norcalfires.fyi
 
 ## Purpose
